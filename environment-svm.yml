@@ -1,0 +1,17 @@
+name: semg-svm
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - joblib
+  - tqdm
+  - pip
