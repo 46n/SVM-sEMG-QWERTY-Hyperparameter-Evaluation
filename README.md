@@ -1,5 +1,7 @@
 # KeypressEMG
 
+> **Project status: paused idea.** This repository currently contains the KeypressEMG research code and sample data from [ANSLab-UHN/sEMG-TypingDatabase](https://github.com/ANSLab-UHN/sEMG-TypingDatabase). A separate SVM hyperparameter evaluation was considered but has **not** been completed or published here. The material below describes the source project, not a finished new evaluation.
+
 
  ![image](images/electrode_positioning.png) 
 
@@ -295,6 +297,7 @@ A series of feature sets were tested for the SVM classifier. These were tested o
 
 ### Window_classification
 Multiple window sizes were tested during development of the SVM classifier. These were: 0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8 second non-overlapping windows. Similar to the Feature tests, the classification accuracy and F1 score were found for each participant and each session individually with a 70/30 train/test split. The results are provided in Window_Classification/ClassificationResult.csv. The mean of these results is provided in ResultsSummary.xlsx.
+
 
 
 
