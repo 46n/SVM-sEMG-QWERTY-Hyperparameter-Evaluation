@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.jupyter/
+outputs/
+CleanData/valid_experiments/
+CleanData/valid_windows/
+CleanData/valid_features/
+CleanData/valid_user_features/
+*.log
